@@ -9,7 +9,7 @@ describe ('Thermostat', function() {
 
   describe ('temperature', function() {
 
-    it('should default to 20 degrees', function() {
+    it('should default to 20', function() {
       expect(thermostat.temperature).toEqual(20);
     });
 
@@ -23,6 +23,14 @@ describe ('Thermostat', function() {
       thermostat.decrease();
 
       expect(thermostat.temperature).toEqual(19);
+    });
+
+  });
+
+  describe('minimumTemperature', function() {
+
+    it('should be 10', function() {
+      expect(minimumTemperature).toEqual(10);
     });
 
   });

@@ -1,3 +1,5 @@
+const minimumTemperature = 10;
+
 function Thermostat() {
   this.temperature = 20;
 };
