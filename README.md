@@ -7,7 +7,7 @@ This project is a thermostat.
 
 ## Build status
 
-README created and Jasmine testing framework set up.
+README created and Jasmine testing framework set up. User stories 1-4 complete.
 
 ## User Stories
 
@@ -24,7 +24,7 @@ As a hot user
 So that I can stay cool
 I would like to be able to decrease the temperature
 
-As an average user
+As a user in a could country
 So that my pipes don’t freeze
 I would like the minimum temperature to be 10 degrees
 
