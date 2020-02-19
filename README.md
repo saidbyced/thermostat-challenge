@@ -24,7 +24,7 @@ As a hot user
 So that I can stay cool
 I would like to be able to decrease the temperature
 
-As a user in a could country
+As a user in a cold country
 So that my pipes don’t freeze
 I would like the minimum temperature to be 10 degrees
 
