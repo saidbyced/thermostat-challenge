@@ -7,7 +7,7 @@ This project is a thermostat.
 
 ## Build status
 
-README created and Jasmine testing framework set up. User stories 1-4 complete.
+README created and Jasmine testing framework set up. User stories complete; working on refactoring.
 
 ## User Stories
 

@@ -39,7 +39,7 @@ describe ('Thermostat', function() {
   
     
     it('should set the maximumTemperature to 25 degrees', function() {
-      thermostat.powerSavingMode = true;
+      thermostat.turnOnPSM();
       
       expect(thermostat.maximumTemperature()).toEqual(25);
     });
@@ -53,9 +53,19 @@ describe ('Thermostat', function() {
   describe('maximumTemperature', function() {
 
     it('should be 32 with powerSavingMode off', function() {
-      thermostat.powerSavingMode = false;
+      thermostat.turnOffPSM();
 
       expect(thermostat.maximumTemperature()).toEqual(32);
+    });
+
+  });
+
+  describe('reset', function() {
+
+    it('should reset the temperature to 20 degrees', function() {
+      thermostat.reset();
+
+      expect(thermostat.temperature).toEqual(20);
     });
 
   });
