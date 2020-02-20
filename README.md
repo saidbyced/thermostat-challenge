@@ -29,12 +29,12 @@ So that my pipes don’t freeze
 I would like the minimum temperature to be 10 degrees
 
 As a money-savvy user
-So that my bills don’t get to high
+So that my bills don’t get too high
 I would like to have a power saving mode that sets the maximum temperature to 25 degrees
 
 As a user that gets cold easily
-So that I no computer can tell me what to do
-I would like to be able to switch off the power saving mode so the maximum temperature can be increased to 32 degrees
+So that I can upgrade the maximum temperature to 32 degrees
+I would like to be able to switch off the power saving mode
 
 As a forgetful user
 So that I don’t over-use the heating by mistake
