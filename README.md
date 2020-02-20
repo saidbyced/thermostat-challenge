@@ -43,4 +43,8 @@ I would like the power saving mode to be on by default
 As an efficient user
 So that I can save time
 I would like to be able to reset the temperature to 20 with a single function
+
+As a user that pays the bills
+So that I know roughly how high my energy usage is
+I would like to know if it is low, medium or high
 ```

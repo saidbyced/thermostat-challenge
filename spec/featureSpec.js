@@ -70,4 +70,30 @@ describe ('Thermostat', function() {
 
   });
 
+  describe('currentEnergyUsage', function() {
+
+    describe('should show a usage level', function() {
+      
+      it('low when temperature is below 18 degrees', function() {
+        thermostat.temperature = 17;
+
+        expect(thermostat.energyUsage()).toEqual("low");
+      });
+
+      it('meduim when temperature is between 18 and 25 degrees', function() {
+        thermostat.temperature = 21.5;
+
+        expect(thermostat.energyUsage()).toEqual("medium");
+      });
+
+      it('high when temperature is 25 degrees or higher', function() {
+        thermostat.temperature = 26;
+
+        expect(thermostat.energyUsage()).toEqual("high");
+      });
+
+    });
+
+  });
+
 });
