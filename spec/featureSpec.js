@@ -80,7 +80,7 @@ describe ('Thermostat', function() {
         expect(thermostat.energyUsage()).toEqual("low");
       });
 
-      it('meduim when temperature is between 18 and 25 degrees', function() {
+      it('medium when temperature is between 18 and 25 degrees', function() {
         thermostat.temperature = 21.5;
 
         expect(thermostat.energyUsage()).toEqual("medium");
